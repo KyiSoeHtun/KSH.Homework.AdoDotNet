@@ -34,7 +34,7 @@ if (editStudent is not null)
     db.SaveChanges();
 }
 
-StudentDto? removeStudent = db.Students.Where(x => x.ClientID == 9).FirstOrDefault();
+StudentDto? removeStudent = db.Students.Where(x => x.ClientID == 10).FirstOrDefault();
 if (removeStudent is not null)
 {
     db.Students.Remove(removeStudent);
